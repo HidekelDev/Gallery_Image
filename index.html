@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hidekel's Gallery</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+   
+    
+<section class="gallery min-vh-100">
+
+   <div class="container text-center mt-5">
+    <h2>Welcome</h2> <br>
+    <p class="mt-3">Da click a la imagen para hacer zoom.</p>
+    <hr>
+  </div>
+
+
+    <div class="container-lg">
+        <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3 ">
+
+
+            <div class="col">
+                <img src="img/img1.jpg" alt="gallery" class="gallery-item">
+            </div>
+            <div class="col">
+                <img src="img/img2.jpg" alt="gallery" class="gallery-item"> 
+            </div>
+            <div class="col">
+                <img src="img/img3.jpg" alt="gallery" class="gallery-item">
+            </div>
+            <div class="col">
+                <img src="img/img4.jpg" alt="gallery" class="gallery-item"> 
+            </div>
+            <div class="col">
+                <img src="img/img5.jpg" alt="gallery" class="gallery-item">
+            </div>
+            <div class="col">
+                <img src="img/img6.jpg" alt="gallery" class="gallery-item">
+            </div>
+            <div class="col">
+                <img src="img/img7.jpg" alt="gallery" class="gallery-item">
+            </div>
+            <div class="col">
+                <img src="img/img8.jpg" alt="gallery" class="gallery-item">
+            </div>
+            <div class="col">
+                <img src="img/img9.jpg" alt="gallery" class="gallery-item">
+            </div>                                
+            
+        </div>
+    </div>
+</section>
+
+
+<!-- Modal -->
+<div class="modal fade" id="gallery-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+       <!-- <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1> -->
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+            <img src="img/img1.jpg" alt="img modal" class="modal-img">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>    
+</html>

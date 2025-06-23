@@ -1,0 +1,41 @@
+.gallery{
+ background-color: rgb(44, 87, 125);
+ padding: 80px 0;
+}
+img{
+    max-width: 100%;
+}
+.gallery img {
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    width: 100%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+#gallery-modal .modal-img {
+    width: 100%;
+ 
+}
+
+    h2 {
+      font-size: 4.5rem;
+      font-weight: 700;
+      color: #ffffff;
+      text-shadow: 1px 1px 3px rgba(137, 165, 225, 0.2);
+      border-bottom: 3px solid #0d6efd;
+      display:inline-table;
+      padding-bottom: 5px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1.2rem;
+      color: #555;
+      font-style: italic;
+      background-color: #f8f9fa;
+      display: inline-block;
+      padding: 8px 16px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
